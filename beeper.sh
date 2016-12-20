@@ -1,4 +1,4 @@
-osascript -e '
+nohup osascript -e '
 repeat
   set delay_min to (random number from 1 to 6)
   set delay_min to delay_min * 5 * 60
